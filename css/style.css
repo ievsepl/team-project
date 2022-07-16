@@ -55,3 +55,98 @@ body {
 .logo {
   margin-right: 70px;
 }
+
+.subtitle {
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.hero-title {
+  font-size: 100px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.button {
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 1.52;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 18px 50px;
+  background: transparent;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.about {
+  padding: 113px 0;
+}
+
+.section-title {
+  font-size: 50px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin-bottom: 56px;
+}
+
+.box-title {
+  font-size: 25px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin-bottom: 19px;
+}
+
+.box-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  color: var(--main-color);
+}
+
+.list-box {
+  margin-bottom: 57px;
+  display: flex;
+  margin-left: -30px;
+}
+
+.box-content {
+  width: calc(100% / 12 * 6 - 30px);
+  margin-left: 30px;
+}
+
+.galery {
+  display: flex;
+  margin-right: -30px;
+}
+
+.galery-img {
+  margin-right: 30px;
+}
+
+.footer-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--main-color);
+}
+
+.list-footer {
+  display: flex;
+}
+
+.footer-item + .footer-item {
+  margin-left: 55px;
+}
+
+.footer {
+  padding-bottom: 80px;
+}
