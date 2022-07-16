@@ -1,13 +1,57 @@
 :root {
-    --main-color: #000;
-    --secondary-color: #fff;
+  --main-color: #000;
+  --secondary-color: #fff;
 }
 
-
 body {
-    font-family: 'Anton', sans-serif;
-    font-size: 16px;
-    line-height: 1.63;
-    color: var(--main-color);
+  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--main-color);
+  margin: 0;
+}
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background-image: url(/images/header-bg.jpg);
+  padding: 320px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 57px;
+  width: inherit;
+}
+
+.navigation {
+  display: flex;
+}
+
+.list-link {
+  display: flex;
+}
+
+.link {
+  display: block;
+  padding: 14px 0;
+  color: var(--secondary-color);
+}
+.list-item + .list-item {
+  margin-left: 40px;
+}
+
+.logo {
+  margin-right: 70px;
 }
